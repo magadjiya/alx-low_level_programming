@@ -2,6 +2,8 @@
 /**
  * main - Entry point
  *
+ * print out sizes
+ *
  * Return: Always 0 (Success)
 */
 int main(void)

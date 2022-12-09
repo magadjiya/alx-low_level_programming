@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * print out sentence
+ *
  * Return: Always 0 (Success)
 */
 int main(void)

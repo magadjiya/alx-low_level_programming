@@ -1,11 +1,23 @@
 #include "main.h"
 
 /**
- * print_alphabet - entry
+ * main - entry point
  *
- * _putchar from a to z
+ * invoke print_alphabet
  *
  * No return
+*/
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
+/**
+ * print_alphabet
+ *
+ * putchar a - z
+ *
+ * Return void
 */
 void print_alphabet(void)
 {

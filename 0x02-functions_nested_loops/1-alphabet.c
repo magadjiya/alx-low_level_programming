@@ -1,19 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * invoke print_alphabet
- *
- * No return
-*/
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-/**
- * print_alphabet
+ * print_alphabet - entry point
  *
  * putchar a - z
  *
@@ -29,4 +17,6 @@ void print_alphabet(void)
 		letter++;
 	}
 	_putchar('\n');
-}
+
+	return;
+

@@ -2,15 +2,15 @@
 #include <stdbool.h>
 
 /**
- * _islower - entry point
+ * _islower - function that checks lowercase letters
  *
- * c - character
+ * @c: set integer
  *
- * Return: 1 if _islower == 'true', 0 if not
+ * Return: 1 if _islower == true, 0 if not
 */
 int _islower(int c)
 {
-	if (_islower(c) == true)
+	if (c  >= 97  && c <= 122)
 	{
 		return (1);
 	}

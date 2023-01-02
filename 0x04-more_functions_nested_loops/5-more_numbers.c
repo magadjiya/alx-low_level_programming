@@ -13,13 +13,14 @@ void more_numbers(void)
 	{
 		for (y = 0; y <= 14; y++)
 		{
-			if (y >= 0 && y <= 9)
-			{
-				_putchar(y + '0');
-			}
-			else if (y >= 10 && y <= 99)
+			/*put first int for 2 digit numbers*/
+			if (y >= 10 && y <= 14)
 			{
 				_putchar((y / 10) + '0');
+			}
+			/*last integer for 1 or 2 digit numbers*/
+			if ((y >= 10 && y <= 99) || (y >= 0 && y <= 9))
+			{
 				_putchar((y % 10) + '0');
 			}
 		}

@@ -1,10 +1,6 @@
-/**
- * contains all prototypes
- *
- *
-*/
+/*All prototypes*/
 
-int _putchar(char c);
+int _putchar(int c);
 
 void print_alphabet(void);
 
@@ -27,3 +23,7 @@ void times_table(void);
 int add(int, int);
 
 void print_to_98(int n);
+
+int _strlen(char *s);
+
+void print_times_table(int n);

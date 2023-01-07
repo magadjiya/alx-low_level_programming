@@ -15,11 +15,14 @@ int main(void)
 
 	while (f <= 9)
 	{
-		for (s = 1; s <= 9; s++)
+		for (s = f + 1; s <= 9; s++)
 		{
 			putchar(f + '0');
 			putchar(s + '0');
-			putchar(44);
+			if (f == 8 && s == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 		f++;
 	}

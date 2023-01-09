@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i, a, b, c;
+	unsigned long i, a, b, c;
 
 	a = 0;
 	b = 1;
@@ -15,7 +15,7 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
 		c = a + b;
-		printf("%d", c);
+		printf("%ld", c);
 		a = b;
 		b = c;
 		if (i != 50)

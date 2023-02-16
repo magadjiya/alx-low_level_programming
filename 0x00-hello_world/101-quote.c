@@ -8,6 +8,6 @@ int main(void)
 {
 	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fwrite(msg, 60, 1, stderr);
+	fwrite(msg, 59, 1, stderr);
 	return (1);
 }

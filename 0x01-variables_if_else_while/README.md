@@ -72,10 +72,10 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 [Task 1]: ./1-last_digit.c
 [Task 2]: ./2-print_alphabet.c
 [Task 3]: ./3-print_alphabets.c
-[Task 4]: ./
-[Task 5]: ./
-[Task 6]: ./
-[Task 7]: ./
+[Task 4]: ./4-print_alphabt.c
+[Task 5]: ./5-print_numbers.c
+[Task 6]: ./6-print_numberz.c
+[Task 7]: ./7-print_tebahpla.c
 [Task 8]: ./
 [Task 9]: ./
 [Task 10]: ./
@@ -105,24 +105,24 @@ With only putchar write a program that prints the alphabet in lowercase, and the
 **Task file:** [3-print\_alphabets.c][Task 3]
 
 ### Task 4
+Print all lowercase letters except e & q. Use putchar twice only, end with newline.
 
-
-**Task file:** [][Task 4]
+**Task file:** [4-print\_alphabt.c][Task 4]
 
 ### Task 5
+Print 0-9 only, followed by a new line.
 
-
-**Task file:** [][Task 5]
+**Task file:** [5-print\_numbers.c][Task 5]
 
 ### Task 6
+Print 0-9 but with putchar only, end with a new line.
 
-
-**Task file:** [][Task 6]
+**Task file:** [6-print\_numberz.c][Task 6]
 
 ### Task 7
+Print lowercase z to a. Use only putchar, end with new line.
 
-
-**Task file:** [][Task 7]
+**Task file:** [7-print\_tebahpla.c][Task 7]
 
 ### Task 8
 

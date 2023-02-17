@@ -38,11 +38,11 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 - [x] task 1
 - [x] task 2
 - [x] task 3
-- [ ] task 4
-- [ ] task 5
-- [ ] task 6
-- [ ] task 7
-- [ ] task 8
+- [x] task 4
+- [x] task 5
+- [x] task 6
+- [x] task 7
+- [x] task 8
 - [ ] task 9
 - [ ] task 10
 - [ ] task 11
@@ -76,7 +76,7 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 [Task 5]: ./5-print_numbers.c
 [Task 6]: ./6-print_numberz.c
 [Task 7]: ./7-print_tebahpla.c
-[Task 8]: ./
+[Task 8]: ./8-print_base16.c
 [Task 9]: ./
 [Task 10]: ./
 [Task 11]: ./
@@ -105,7 +105,7 @@ With only putchar write a program that prints the alphabet in lowercase, and the
 **Task file:** [3-print\_alphabets.c][Task 3]
 
 ### Task 4
-Print all lowercase letters except e & q. Use putchar twice only, end with newline.
+Print all lowercase letters except e & q. Use putchar twice only, end with new line.
 
 **Task file:** [4-print\_alphabt.c][Task 4]
 
@@ -125,9 +125,9 @@ Print lowercase z to a. Use only putchar, end with new line.
 **Task file:** [7-print\_tebahpla.c][Task 7]
 
 ### Task 8
+Print base-16 numbers, i.e 0-f, followed by a new line.
 
-
-**Task file:** [][Task 8]
+**Task file:** [8-print\_base16.c][Task 8]
 
 ### Task 9
 
@@ -158,22 +158,16 @@ Print lowercase z to a. Use only putchar, end with new line.
 
 - Shell
 - C
-- Python
-- Javascript
-
-**Note: remove and add whatever you used to build this project. Delete this note after**
 
 ### What I learned
-
-I learned about strings...(Replace this paragraph with yours)
-
-**Note: Write what you learned during this project. Delete this note after**
+I learned about conditionals in C, how to set them to check for something.
+I learned the power of using '0' or simply 48 to show regular numbers when using putchar()
 
 ## Author
 
 - ALX - [ALX Africa](https://www.alxafrica.com)
 - Twitter - [@k\_danhassan](https://twitter.com/k_danhassan)
-77
+
 ## Acknowledgements
 
 Thanks to Evil Ghost for helping me with this template...(Replace this paragraph with yours)  

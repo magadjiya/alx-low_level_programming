@@ -43,7 +43,7 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 - [x] task 6
 - [x] task 7
 - [x] task 8
-- [ ] task 9
+- [x] task 9
 - [ ] task 10
 - [ ] task 11
 - [ ] task 12
@@ -77,7 +77,7 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 [Task 6]: ./6-print_numberz.c
 [Task 7]: ./7-print_tebahpla.c
 [Task 8]: ./8-print_base16.c
-[Task 9]: ./
+[Task 9]: ./9-print_comb.c
 [Task 10]: ./
 [Task 11]: ./
 [Task 12]: ./
@@ -130,9 +130,9 @@ Print base-16 numbers, i.e 0-f, followed by a new line.
 **Task file:** [8-print\_base16.c][Task 8]
 
 ### Task 9
+Putchar single integers 0-9, with commas and spaces in between. End with a new line.
 
-
-**Task file:** [][Task 9]
+**Task file:** [9-print\_comb.c][Task 9]
 
 ## Advanced tasks
 

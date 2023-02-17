@@ -7,7 +7,6 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 - [Overview](#overview)
   - [Completed tasks](#completed-tasks)
   - [Links to task files](#links-to-task-files)
-    - [Links to other files](#links-to-other-files)
 - [Mandatory tasks](#mandatory-tasks)
   - [Task 0](#task-0)
   - [Task 1](#task-1)
@@ -36,9 +35,9 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 ### Completed tasks
 
 - [x] task 0
-- [ ] task 1
-- [ ] task 2
-- [ ] task 3
+- [x] task 1
+- [x] task 2
+- [x] task 3
 - [ ] task 4
 - [ ] task 5
 - [ ] task 6
@@ -68,14 +67,11 @@ In this folder we look and solve problems in C concerning the if, else, and whil
   - [Task 11][Task 11]
   - [Task 12][Task 12]
 
-#### Links to other files
-  - [Header file][Header file]
 
-
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
+[Task 0]: ./0-positive_or_negative.c
+[Task 1]: ./1-last_digit.c
+[Task 2]: ./2-print_alphabet.c
+[Task 3]: ./3-print_alphabets.c
 [Task 4]: ./
 [Task 5]: ./
 [Task 6]: ./
@@ -85,29 +81,28 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 [Task 10]: ./
 [Task 11]: ./
 [Task 12]: ./
-[Header file]: ./replace-this-with-file-name
 
 ## Mandatory tasks
 
 ### Task 0
-
+This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n. Run some conditions on it.
 
 **Task file:** [0-positive\_or\_negative.c][Task 0]
 
 ### Task 1
-
+Complete the source code in order to print the last digit of the number stored in the variable n. Assigns a random number, run some conditions for it.
 
 **Task file:** [1-last\_digit.c][Task 1]
 
 ### Task 2
-
+Using only putchar(), write a program that prints the alphabet in lowercase, followed by a new line.
 
 **Task file:** [2-print\_alphabet.c][Task 2]
 
 ### Task 3
+With only putchar write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
-
-**Task file:** [][Task 3]
+**Task file:** [3-print\_alphabets.c][Task 3]
 
 ### Task 4
 

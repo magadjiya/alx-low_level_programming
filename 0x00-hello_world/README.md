@@ -1,8 +1,6 @@
 # 0x00. C - Hello, World
 
-Write what this project is all about. It can be a brief summary of what you are learning and what you will do
-**Note: Delete this note and the paragraph above after**  
-**Important note: escape special characters like * and _ so that it doesn't affect the whole document. You will find examples where it was done if you go through the document. Delete this note after.**
+This is an introduction to C, we create a couple shell scripts with the gcc compiler. Then we write some basic C programs with built-in functions.
 
 ## Table of contents
 
@@ -33,14 +31,14 @@ Write what this project is all about. It can be a brief summary of what you are 
 ### Completed tasks
 
 - [x] task 0
-- [ ] task 1
-- [ ] task 2
-- [ ] task 3
-- [ ] task 4
-- [ ] task 5
-- [ ] task 6
-- [ ] task 7
-- [ ] task 8
+- [x] task 1
+- [x] task 2
+- [x] task 3
+- [x] task 4
+- [x] task 5
+- [x] task 6
+- [x] task 7
+- [x] task 8
 
 ### Links to task files
 
@@ -60,67 +58,64 @@ Write what this project is all about. It can be a brief summary of what you are 
 #### Links to other files
   - [Header file][Header file]
 
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
-[Task 4]: ./
-[Task 5]: ./
-[Task 6]: ./
-[Task 7]: ./
-[Task 8]: ./
-[Header file]: ./replace-this-with-file-name
+[Task 0]: ./0-preprocessor
+[Task 1]: ./1-compiler
+[Task 2]: ./2-assembler
+[Task 3]: ./3-name
+[Task 4]: ./4-puts.c
+[Task 5]: ./5-printf.c
+[Task 6]: ./6-size.c
+[Task 7]: ./100-intel
+[Task 8]: ./101-quote.c
 
 ## Mandatory tasks
 
 ### Task 0
+A script that runs a C file (found in $CFILE) through a preprocessor and saves the output in a file named c.
 
-Write a function that concatenates two strings.  
-- Prototype: char \*\_strcat(char \*dest, char \*src);
-- This function appends the...
-
-**Note: this is just an example you can write whatever you want here. Delete this note after.**
-
-**Task file:** [0-strcat.c][Task 0]
-
-**Note: the paragraph above is just an example. Replace `0-strcat.c` with your own filename if you want to use it. The second braces `[Task 0]` is taken from the links above. It's easier this way than writing the links all over again. Delete this note after.**
+**Task file:** [0-preprocessor][Task 0]
 
 ### Task 1
+A script that compiles a C file (found in $CFILE) but does not link, the output has a .o extension.
 
+**Task file:** [1-compiler][Task 0]
 
 ### Task 2
+A script that generates the assembly code of a C file (found in $CFILE) and has an output with a .s extension.
 
+**Task file:** [2-assembler][Task 0]
 
 ### Task 3
+Script that compiles a C file (found in $CFILE) and creates an executable called cisfun.
 
+**Task file:** [3-name][Task 0]
 
 ### Task 4
+With the puts() function, write a C program that prints the exact sentence: "Programming is like building a multilingual puzzle." End with a new line. Return 0.
 
+**Task file:** [4-puts.c][Task 0]
 
 ### Task 5
+Using C and printf(), print "with proper grammar, but the outcome is a piece of art,", end with new line to standard output. Return (0).
 
+**Task file:** [5-printf.c][Task 0]
 
 ### Task 6
+Print the sizes of the various data types in C using C (-m32, -m64), warnings are allowed.
 
-
-### Task 7
-
+**Task file:** [6-size.c][Task 0]
 
 ## Advanced tasks
 
+### Task 7
+A script that generates the assembly code (Intel syntax) of a C program (found in $CFILE) With a .s extention.
+
+**Task file:** [100-intel][Task 0]
+
 ### Task 8
+Print the sentence, and that piece of art is useful" - Dora Korpar, 2015-10-19 followed by a new line to standard error. Return 1. Don't use any functions listed on the man pages for printf() and puts().
 
-
-### Task 9
-
-
-### Task 10
-
-
-### Task 11
-
-
-### Task 12
+**Task file:** [101-quote.c][Task 0]
 
 
 ## My process
@@ -129,23 +124,16 @@ Write a function that concatenates two strings.
 
 - Shell
 - C
-- Python
-- Javascript
-
-**Note: remove and add whatever you used to build this project. Delete this note after**
 
 ### What I learned
 
-I learned about strings...(Replace this paragraph with yours)
-
-**Note: Write what you learned during this project. Delete this note after**
+- I learned about fwrite(), it can be used to write to standard error. You simply input the sentence, the space to be allocated, and the number of standard error (i.e 1).
+- I learned how to set the "mode" when generating assembly code for C. Using the -masm= tag, then you input whatever mode you'd like (e.g -masm=intel).
 
 ## Author
 
 - ALX - [ALX Africa](https://www.alxafrica.com)
-- Twitter - [_@yourusername_](https://twitter.com/yourusername)
-
-**Note: you are free to add more. Replace `yourusername` with yours. Delete this note after**
+- Twitter - [@k\_danhassan](https://twitter.com/k_danhassan)
 
 ## Acknowledgements
 

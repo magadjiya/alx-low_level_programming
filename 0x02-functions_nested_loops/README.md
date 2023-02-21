@@ -43,13 +43,13 @@ Write what this project is all about. It can be a brief summary of what you are 
 - [x] task 1
 - [x] task 2
 - [x] task 3
-- [ ] task 4
-- [ ] task 5
-- [ ] task 6
+- [x] task 4
+- [x] task 5
+- [x] task 6
 - [ ] task 7
-- [ ] task 8
-- [ ] task 9
-- [ ] task 10
+- [x] task 8
+- [x] task 9
+- [x] task 10
 - [ ] task 11
 - [ ] task 12
 - [ ] task 13
@@ -103,54 +103,57 @@ Write what this project is all about. It can be a brief summary of what you are 
 ## Mandatory tasks
 
 ### Task 0
+Print "\_putchar" to standard output, followed by a new line. Return 0.
 
-
-**Task file:** [][Task 0]
+**Task file:** [0-putchar.c][Task 0]
 
 ### Task 1
+C program that prints the lowercase alphabet followed by a new line. Use \_putchar twice only.
 
-
-**Task file:** [][Task 1]
+**Task file:** [1-alphabet.c][Task 1]
 
 ### Task 2
+C program that prints the lowercase alphabet followed by a new line 10 times. Use \_putchar twice.
 
-
-**Task file:** [][Task 2]
+**Task file:** [2-print\_alphabet\_x10.c][Task 2]
 
 ### Task 3
+C program that checks for lowercase alphabets. Returns 1 if True, 0 otherwise.
 
-
-**Task file:** [][Task 3]
+**Task file:** [3-islower.c][Task 3]
 
 ### Task 4
+C program that checks for alphabets (a-z A-Z), returns 1 if True, 0 if False.
 
-
-**Task file:** [][Task 4]
+**Task file:** [4-isalpha.c][Task 4]
 
 ### Task 5
+C function that prints the sign of a number.
+- Returns 1 and prints + if n is greater than zero
+- Returns 0 and prints 0 if n is zero
+- Returns -1 and prints - if n is less than zero
 
-
-**Task file:** [][Task 5]
+**Task file:** [5-sign.c][Task 5]
 
 ### Task 6
+C function that computes the absolute value of an integer.
 
-
-**Task file:** [][Task 6]
+**Task file:** [6-abs.c][Task 6]
 
 ### Task 7
+C a function that prints the last digit of a number. Return the last number.
 
-
-**Task file:** [][Task 7]
+**Task file:** [7-print\_last\_digit.c][Task 7]
 
 ### Task 8
+C program that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
-
-**Task file:** [][Task 8]
+**Task file:** [8-24\_hours.c][Task 8]
 
 ### Task 9
+C function that prints the 9 times table, starting with 0.
 
-
-**Task file:** [][Task 9]
+**Task file:** [9-times\_table.c][Task 9]
 
 ### Task 10
 

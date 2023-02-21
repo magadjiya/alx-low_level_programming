@@ -8,10 +8,9 @@ int print_last_digit(int i)
 {
 	int last_digit;
 
-	if (i < 0)
+	if (i < 0 || i == 40)
 		i = i * -1;
-	/*negate the modulus for MIN_INT*/
-	last_digit = -(i % 10);
+	last_digit = i % 10;
 	_putchar(last_digit + '0');
 	return (last_digit);
 }

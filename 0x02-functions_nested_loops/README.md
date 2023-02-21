@@ -39,10 +39,10 @@ Write what this project is all about. It can be a brief summary of what you are 
 
 ### Completed tasks
 
-- [ ] task 0
-- [ ] task 1
-- [ ] task 2
-- [ ] task 3
+- [x] task 0
+- [x] task 1
+- [x] task 2
+- [x] task 3
 - [ ] task 4
 - [ ] task 5
 - [ ] task 6
@@ -81,23 +81,23 @@ Write what this project is all about. It can be a brief summary of what you are 
   - [Task 15][Task 15]
   - [Task 16][Task 16]
 
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
-[Task 4]: ./
-[Task 5]: ./
-[Task 6]: ./
-[Task 7]: ./
-[Task 8]: ./
-[Task 9]: ./
-[Task 10]: ./
-[Task 11]: ./
-[Task 12]: ./
-[Task 13]: ./
-[Task 14]: ./
-[Task 15]: ./
-[Task 16]: ./
+[Task 0]: ./0-putchar.c
+[Task 1]: ./1-alphabet.c
+[Task 2]: ./2-print_alphabet_x10.c
+[Task 3]: ./3-islower.c
+[Task 4]: ./4-isalpha.c
+[Task 5]: ./5-sign.c
+[Task 6]: ./6-abs.c
+[Task 7]: ./7-print_last_digit.c
+[Task 8]: ./8-24_hours.c
+[Task 9]: ./9-times_table.c
+[Task 10]: ./10-add.c
+[Task 11]: ./11-print_to_98.c
+[Task 12]: ./100-times_table.c
+[Task 13]: ./101-natural.c
+[Task 14]: ./102-fibonacci.c
+[Task 15]: ./103-fibonacci.c
+[Task 16]: ./104-fibonacci.c
 
 
 ## Mandatory tasks
@@ -167,27 +167,27 @@ Write what this project is all about. It can be a brief summary of what you are 
 ### Task 12
 
 
-**Task file:** [][Task 12]
+**Task file:** [100-times\_table.c][Task 12]
 
 ### Task 13
 
 
-**Task file:** [][Task 13]
+**Task file:** [101-natural.c][Task 13]
 
 ### Task 14
 
 
-**Task file:** [][Task 14]
+**Task file:** [102-fibonacci.c][Task 14]
 
 ### Task 15
 
 
-**Task file:** [][Task 15]
+**Task file:** [103-fibonacci.c][Task 15]
 
 ### Task 16
 
 
-**Task file:** [][Task 16]
+**Task file:** [104-fibonacci.c][Task 16]
 
 
 ## My process

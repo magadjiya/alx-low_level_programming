@@ -21,7 +21,9 @@ int main(void)
 					putchar(' ');
 					putchar(c + 48);
 					putchar(d + 48);
-					if (b < 9)
+					if (a == 9 && c == 9 && d == 9 && b == 8)
+						putchar('\n');
+					else
 					{
 						putchar(44);
 						putchar(32);
@@ -31,6 +33,5 @@ int main(void)
 			}
 		}
 	}
-	putchar('\n');
 	return (0);
 }

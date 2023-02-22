@@ -51,10 +51,10 @@ Write what this project is all about. It can be a brief summary of what you are 
 - [x] task 9
 - [x] task 10
 - [ ] task 11
-- [ ] task 12
-- [ ] task 13
-- [ ] task 14
-- [ ] task 14
+- [x] task 12
+- [x] task 13
+- [x] task 14
+- [x] task 14
 - [ ] task 16
 
 
@@ -156,39 +156,39 @@ C function that prints the 9 times table, starting with 0.
 **Task file:** [9-times\_table.c][Task 9]
 
 ### Task 10
+C function that adds two integers and returns the result.
 
-
-**Task file:** [][Task 10]
+**Task file:** [10-add.c][Task 10]
 
 ### Task 11
+C function that takes us from n to the integer 98. Standard library is allowed. Last number printed should be 98, first should be n.
 
-
-**Task file:** [][Task 11]
+**Task file:** [11-print\_to\_98.c][Task 11]
 
 ## Advanced tasks
 
 ### Task 12
-
+C function that prints the n times table, starting with 0. If 15 > n > 0, do nothing.
 
 **Task file:** [100-times\_table.c][Task 12]
 
 ### Task 13
-
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
 
 **Task file:** [101-natural.c][Task 13]
 
 ### Task 14
-
+C program that prints first 50 fibonacci numbers, starting with 1, 2.
 
 **Task file:** [102-fibonacci.c][Task 14]
 
 ### Task 15
-
+C program that prints the sum of all even fibonacci numbers that do not exceed 4000000.
 
 **Task file:** [103-fibonacci.c][Task 15]
 
 ### Task 16
-
+C program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
 **Task file:** [104-fibonacci.c][Task 16]
 
@@ -201,7 +201,9 @@ C function that prints the 9 times table, starting with 0.
 
 ### What I learned
 
-I learned...
+- The fibonacci number series, how to write a program for it.
+- What the absolute value of a number n is.
+- How to print 2, 3 digit numbers using \_putchar().
 
 
 ## Author

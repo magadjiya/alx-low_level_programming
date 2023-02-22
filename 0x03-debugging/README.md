@@ -1,6 +1,6 @@
 # 0x03. C - Debugging
 
-Write what this project is all about. It can be a brief summary of what you are learning and what you will do
+In this project, we debug code that has been provided, and is faulty.
 
 ## Table of contents
 
@@ -25,9 +25,9 @@ Write what this project is all about. It can be a brief summary of what you are 
 
 ### Completed tasks
 
-- [ ] task 0
-- [ ] task 1
-- [ ] task 2
+- [x] task 0
+- [x] task 1
+- [x] task 2
 - [ ] task 3
 
 
@@ -39,32 +39,37 @@ Write what this project is all about. It can be a brief summary of what you are 
   - [Task 2][Task 2]
   - [Task 3][Task 3]
 
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
+#### Links to other files
+  - [Header file][Header file]
+- 
+[Task 0]: ./0-main.c
+[Task 1]: ./1-main.c
+[Task 2]: ./2-largest_number.c
+[Task 3]: ./3-print_remaining_days.c
+[Header file]: ./main.h
 
 ## Mandatory tasks
 
 ### Task 0
+You are given the source code for the C program.
+file must test that the function positive\_or\_negative() gives the correct output when given a case of 0.
 
-
-**Task file:** [][Task 0]
+**Task file:** [0-main.c][Task 0]
 
 ### Task 1
+You are given the source code, comment out the part(s) that are causing an infinite loop.
 
-
-**Task file:** [][Task 1]
+**Task file:** [1-main.c][Task 1]
 
 ### Task 2
+Fix the source code so that it prints the largest number, no matter what.
 
-
-**Task file:** [][Task 2]
+**Task file:** [2-largest\_number.c][Task 2]
 
 ### Task 3
 
 
-**Task file:** [][Task 3]
+**Task file:** [3-print\_remaining\_days.c][Task 3]
 
 
 ## My process
@@ -75,8 +80,7 @@ Write what this project is all about. It can be a brief summary of what you are 
 
 ### What I learned
 
-I learned...
-
+I learned rubber duck debugging.
 
 ## Author
 

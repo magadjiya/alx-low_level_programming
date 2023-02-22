@@ -50,7 +50,7 @@ Write what this project is all about. It can be a brief summary of what you are 
 - [x] task 8
 - [x] task 9
 - [x] task 10
-- [ ] task 11
+- [x] task 11
 - [x] task 12
 - [x] task 13
 - [x] task 14
@@ -81,6 +81,9 @@ Write what this project is all about. It can be a brief summary of what you are 
   - [Task 15][Task 15]
   - [Task 16][Task 16]
 
+#### Links to other files
+  - [Header file][Header file]
+
 [Task 0]: ./0-putchar.c
 [Task 1]: ./1-alphabet.c
 [Task 2]: ./2-print_alphabet_x10.c
@@ -98,6 +101,7 @@ Write what this project is all about. It can be a brief summary of what you are 
 [Task 14]: ./102-fibonacci.c
 [Task 15]: ./103-fibonacci.c
 [Task 16]: ./104-fibonacci.c
+[Header file]: ./main.h
 
 
 ## Mandatory tasks

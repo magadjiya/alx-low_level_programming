@@ -29,7 +29,7 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
 [Dir 1]: ./0x01-variables_if_else_while
 [Dir 2]: ./0x02-functions_nested_loops
 [Dir 3]: ./0x03-debugging
-[Dir 4]: ./
+[Dir 4]: ./0x04-more_functions_nested_loops
 [Dir 5]: ./
 [Dir 6]: ./
 

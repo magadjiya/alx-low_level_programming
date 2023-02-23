@@ -44,8 +44,8 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 - [x] task 7
 - [x] task 8
 - [x] task 9
-- [ ] task 10
-- [ ] task 11
+- [x] task 10
+- [x] task 11
 - [ ] task 12
 
 ### Links to task files
@@ -78,9 +78,9 @@ In this folder we look and solve problems in C concerning the if, else, and whil
 [Task 7]: ./7-print_tebahpla.c
 [Task 8]: ./8-print_base16.c
 [Task 9]: ./9-print_comb.c
-[Task 10]: ./
-[Task 11]: ./
-[Task 12]: ./
+[Task 10]: ./100-print_comb3.c
+[Task 11]: ./101-print_comb4.c
+[Task 12]: ./102-print_comb5.c
 
 ## Mandatory tasks
 
@@ -137,19 +137,32 @@ Putchar single integers 0-9, with commas and spaces in between. End with a new l
 ## Advanced tasks
 
 ### Task 10
+Program that prints all possible unique combinations of 2 digit numbers(10 and 01 are the same).
+- Print only the smallest combination of two digits
+- Numbers should be printed in ascending order, with two digits
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- You can only use putchar five times maximum in your code
+- You are not allowed to use any variable of type char
 
-
-**Task file:** [][Task 10]
+**Task file:** [100-print\_comb3.c][Task 10]
 
 ### Task 11
+C program that prints possible different combinations of three digits.
+- Numbers must be separated by ,, followed by a space
+- The three digits must be different
+- 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+- Print only the smallest combination of three digits
+- Numbers should be printed in ascending order, with three digits
+- You can only use the putchar function
+5- You can only use putchar six times maximum in your code
+- You are not allowed to use any variable of type char
 
-
-**Task file:** [][Task 11]
+**Task file:** [101-print\_comb4.c][Task 11]
 
 ### Task 12
+C program that prints all possible combinations of two two-digit numbers. Same instructions as above.
 
-
-**Task file:** [][Task 012]
+**Task file:** [102-print\_comb5.c][Task 012]
 
 
 ## My process

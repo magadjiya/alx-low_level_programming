@@ -28,7 +28,7 @@ In this project, we debug code that has been provided, and is faulty.
 - [x] task 0
 - [x] task 1
 - [x] task 2
-- [ ] task 3
+- [x] task 3
 
 
 ### Links to task files
@@ -67,7 +67,7 @@ Fix the source code so that it prints the largest number, no matter what.
 **Task file:** [2-largest\_number.c][Task 2]
 
 ### Task 3
-
+Fix the source code to print the remaining days for normal and leap years.
 
 **Task file:** [3-print\_remaining\_days.c][Task 3]
 

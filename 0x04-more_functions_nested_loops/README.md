@@ -41,11 +41,11 @@
 
 ### Completed tasks
 
-- [ ] task 0
-- [ ] task 1
-- [ ] task 2
-- [ ] task 3
-- [ ] task 4
+- [x] task 0
+- [x] task 1
+- [x] task 2
+- [x] task 3
+- [x] task 4
 - [ ] task 5
 - [ ] task 6
 - [ ] task 7
@@ -77,8 +77,8 @@
 #### Links to other files
   - [Header file][Header file]
 
-[Task 0]: ./
-[Task 1]: ./
+[Task 0]: ./0-isupper.c
+[Task 1]: ./1-isdigit.c
 [Task 2]: ./
 [Task 3]: ./
 [Task 4]: ./
@@ -95,14 +95,14 @@
 ## Mandatory tasks
 
 ### Task 0
+Checks if the inputted parameter is an uppercase letter. Returns 1 if it is, 0 if it is not.
 
-
-**Task file:** [][Task 0]
+**Task file:** [0-isupper.c][Task 0]
 
 ### Task 1
+C function that checks if the paramater is a single digit(i.e. 0-9). Returns 1 if True, 0 if False.
 
-
-**Task file:** [][Task 1]
+**Task file:** [1-isdigit.c][Task 1]
 
 ### Task 2
 

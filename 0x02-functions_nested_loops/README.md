@@ -1,6 +1,6 @@
 # 0x02. C - Functions, nested loops
 
-Write what this project is all about. It can be a brief summary of what you are learning and what you will do
+We work on C functions invloving nested loops and conditionals.
 
 ## Table of contents
 
@@ -46,7 +46,7 @@ Write what this project is all about. It can be a brief summary of what you are 
 - [x] task 4
 - [x] task 5
 - [x] task 6
-- [ ] task 7
+- [x] task 7
 - [x] task 8
 - [x] task 9
 - [x] task 10

@@ -41,8 +41,8 @@
 
 ### Completed tasks
 
-- [ ] task 0
-- [ ] task 1
+- [x] task 0
+- [x] task 1
 - [ ] task 2
 - [ ] task 3
 - [ ] task 4
@@ -76,8 +76,8 @@
   - [Header file][Header file]
 
 
-[Task 0]: ./
-[Task 1]: ./
+[Task 0]: ./0-reset_to_98.c
+[Task 1]: ./1-swap.c
 [Task 2]: ./
 [Task 3]: ./
 [Task 4]: ./
@@ -93,14 +93,14 @@
 ## Mandatory tasks
 
 ### Task 0
+C function that updates the value of provided integer to 98.
 
-
-**Task file:** [][Task 0]
+**Task file:** [0-reset\_to\_98.c][Task 0]
 
 ### Task 1
+C function that swaps the values of two provided integers.
 
-
-**Task file:** [][Task 1]
+**Task file:** [1-swap.c][Task 1]
 
 ### Task 2
 

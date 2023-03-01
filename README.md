@@ -2,36 +2,22 @@
 
 In this project we get familiar with C. A rather archaic and old-fashioned compiled programming language brought to us by Dennis M. Ritchie at Bell Labs.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [Links to project folders](#links-to-project-folders)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Acknowledgments](#acknowledgements)
-- [Credits](#credits)
-- [Link to template](#link-to-template)
-
-
-## Overview
-
 ### Links to project folders
-  - [Dir 0][Dir 0]
-  - [Dir 1][Dir 1]
-  - [Dir 2][Dir 2]
-  - [Dir 3][Dir 3]
-  - [Dir 4][Dir 4]
-  - [Dir 5][Dir 5]
-  - [Dir 6][Dir 6]
+  - [0x00][0x00-hello_world]
+  - [0x01][0x01-variables_if_else_while]
+  - [0x02][0x02]
+  - [0x03][0x03]
+  - [0x04][0x04]
+  - [0x05][0x05]
+  - [0x06][0x06]
 
-[Dir 0]: ./0x00-hello_world
-[Dir 1]: ./0x01-variables_if_else_while
-[Dir 2]: ./0x02-functions_nested_loops
-[Dir 3]: ./0x03-debugging
-[Dir 4]: ./0x04-more_functions_nested_loops
-[Dir 5]: ./
-[Dir 6]: ./
+[0x00-hello_world]: ./0x00-hello_world
+[0x01-variables_if_else_while]: ./0x01-variables_if_else_while
+[0x02-functions_nested_loops]: ./0x02-functions_nested_loops
+[0x03-debugging]: ./0x03-debugging
+[0x04-more_functions_nested_loops]: ./0x04-more_functions_nested_loops
+[0x05-pointers_arrays_strings]: ./0x05-pointers_arrays_strings
+[Dir 6]: ./0x06-pointers_arrays_strings
 
 ## My process
 
@@ -50,8 +36,6 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
 Thanks to Evil Ghost for helping me with this template...(Replace this paragraph with yours)  
 - Twitter - [@Evil\_Ghost\_\_](https://www.twitter.com/evil_ghost__)
 
-**Note: Acknowledge the people who helped you during the project. You can include their names and also link to their social profiles. Remove or edit the Twitter link above. Delete this note after.**
-
 ## Credits
 
 This template is made possible and written by:
@@ -60,10 +44,6 @@ This template is made possible and written by:
 - Medium - [Evil Ghost](https://medium.com/@evilghost)
 - Website - [Coming soon...](#)
 
-**Note: Do not remove this if you used this template**
-
 ## Link to template
 
 - GitHub Repository - [alx-readme-template](https://github.com/Evil-Ghost/alx-readme-template)
-
-**Note: Do not remove this if you used this template**

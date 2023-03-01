@@ -43,14 +43,14 @@
 
 - [x] task 0
 - [x] task 1
-- [ ] task 2
-- [ ] task 3
-- [ ] task 4
-- [ ] task 5
-- [ ] task 6
-- [ ] task 7
-- [ ] task 8
-- [ ] task 9
+- [x] task 2
+- [x] task 3
+- [x] task 4
+- [x] task 5
+- [x] task 6
+- [x] task 7
+- [x] task 8
+- [x] task 9
 - [ ] task 10
 - [ ] task 11
 
@@ -78,16 +78,16 @@
 
 [Task 0]: ./0-reset_to_98.c
 [Task 1]: ./1-swap.c
-[Task 2]: ./
-[Task 3]: ./
-[Task 4]: ./
-[Task 5]: ./
-[Task 6]: ./
-[Task 7]: ./
-[Task 8]: ./
-[Task 9]: ./
-[Task 10]: ./
-[Task 11]: ./
+[Task 2]: ./2-strlen.c
+[Task 3]: ./3-puts.c
+[Task 4]: ./4-print_rev.c
+[Task 5]: ./5-rev_string.c
+[Task 6]: ./6-puts2.c
+[Task 7]: ./7-puts_half.c
+[Task 8]: ./8-print_array.c
+[Task 9]: ./9-strcpy.c
+[Task 10]: ./100-atoi.c
+[Task 11]: ./101-keygen.c
 [Header file]: ./main.h
 
 ## Mandatory tasks
@@ -103,57 +103,60 @@ C function that swaps the values of two provided integers.
 **Task file:** [1-swap.c][Task 1]
 
 ### Task 2
+Returns the length of a string.
 
-
-**Task file:** [][Task 2]
+**Task file:** [2-strlen.c][Task 2]
 
 ### Task 3
+Prints a string, followed by a new line to stdout.
 
-
-**Task file:** [][Task 3]
+**Task file:** [3-puts.c][Task 3]
 
 ### Task 4
+Prints a string in reverse, end with a new line.
 
-
-**Task file:** [][Task 4]
+**Task file:** [4-print\_rev.c][Task 4]
 
 ### Task 5
+Function that reverses a string.
 
-
-**Task file:** [][Task 5]
+**Task file:** [5-rev\_string.c][Task 5]
 
 ### Task 6
+Prints every other character of a string, from the 0-indexed one.
 
-
-**Task file:** [][Task 6]
+**Task file:** [6-puts2.c][Task 6]
 
 ### Task 7
+Print the second half of a string. If it is an odd numbered string, then print the length divided by 2 + 1;
 
-
-**Task file:** [][Task 7]
+**Task file:** [7-puts\_half.c][Task 7]
 
 ### Task 8
+Print the elements of an array.
+Prototype: void print\_array(int \*a, int n);
+- where n is the number of elements to be printed
+- print new line if n <= 0
 
-
-**Task file:** [][Task 8]
+**Task file:** [8-print\_array.c][Task 8]
 
 ### Task 9
+Copy a string including the null character from a source to a destination.
 
-
-**Task file:** [][Task 9]
+**Task file:** [9-strcpy.c][Task 9]
 
 
 ## Advanced tasks
 
 ### Task 10
+Convert a string to an integer, i.e. print the integers in a string.
 
-
-**Task file:** [][Task 10]
+**Task file:** [100-atoi.c][Task 10]
 
 ### Task 11
+Generate random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c)
 
-
-**Task file:** [][Task 11]
+**Task file:** [101-keygen.c][Task 11]
 
 
 ## My process
@@ -164,7 +167,10 @@ C function that swaps the values of two provided integers.
 
 ### What I learned
 
-I learned...
+I learned
+- how to print the second half of an odd numbered string.
+- how to copy a string (with \0) from a place to another
+- how to reverse a string (basically switch the end and the beginning)
 
 
 ## Author

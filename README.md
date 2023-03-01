@@ -3,13 +3,13 @@
 In this project we get familiar with C. A rather archaic and old-fashioned compiled programming language brought to us by Dennis M. Ritchie at Bell Labs.
 
 ### Links to project folders
-  - [0x00][0x00-hello_world]
-  - [0x01][0x01-variables_if_else_while]
-  - [0x02][0x02]
-  - [0x03][0x03]
-  - [0x04][0x04]
-  - [0x05][0x05]
-  - [0x06][0x06]
+  - [0x00-hello\_world][0x00-hello_world]
+  - [0x01-variables\_if\_else\_while][0x01-variables_if_else_while]
+  - [0x02-functions\_nested\_loops][0x02-functions_nested_loops]
+  - [0x03-debugging][0x03-debugging]
+  - [0x04-more\_functions\_nested\_loops][0x04-more_functions_nested_loops]
+  - [0x05-pointers\_arrays\_strings][0x05-pointers_arrays_strings]
+  - [0x06-pointers\_arrays\_strings][0x06-pointers_arrays_strings]
 
 [0x00-hello_world]: ./0x00-hello_world
 [0x01-variables_if_else_while]: ./0x01-variables_if_else_while
@@ -17,7 +17,7 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
 [0x03-debugging]: ./0x03-debugging
 [0x04-more_functions_nested_loops]: ./0x04-more_functions_nested_loops
 [0x05-pointers_arrays_strings]: ./0x05-pointers_arrays_strings
-[Dir 6]: ./0x06-pointers_arrays_strings
+[0x06-pointers_arrays_strings]: ./0x06-pointers_arrays_strings
 
 ## My process
 

@@ -1,13 +1,12 @@
 # 0x09. C - Static libraries
 
-Write what this project is all about. It can be a brief summary of what you are learning and what you will do
+A very simple project that teaches us about static libraries in C.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Completed tasks](#completed-tasks)
   - [Links to task files](#links-to-task-files)
-    - [Links to other files](#links-to-other-files)
 - [Mandatory tasks](#mandatory-tasks)
   - [Task 0](#task-0)
   - [Task 1](#task-1)
@@ -23,36 +22,33 @@ Write what this project is all about. It can be a brief summary of what you are 
 
 ### Completed tasks
 
-- [ ] task 0
-- [ ] task 1
-
+- [x] task 0
+- [x] task 1
+- [x] header file
 
 ### Links to task files
 
 - **Mandatory tasks**
   - [Task 0][Task 0]
   - [Task 1][Task 1]
-
-#### Links to other files
-
   - [Header file][Header file]
 
-[Task 0]: ./
-[Task 1]: ./
-[Header file]: ./
+[Task 0]: ./libmy.a
+[Task 1]: ./create_static_lib.sh
+[Header file]: ./main.h
 
 
 ## Mandatory tasks
 
 ### Task 0
+A static library that contains all the functions in the main header file.
 
-
-**Task file:** [][Task 0]
+**Task file:** [libmy.a][Task 0]
 
 ### Task 1
+A script that creates a static library with all the \*.c files.
 
-
-**Task file:** [][Task 1]
+**Task file:** [create\_static\_lib.sh][Task 1]
 
 
 ## My process
@@ -60,11 +56,14 @@ Write what this project is all about. It can be a brief summary of what you are 
 ### Built with
 
 - Shell
+- C
 
 ### What I learned
 
-I learned...
+I learned
 
+- how to index a static library (ranlib)
+- how to create a static library
 
 ## Author
 

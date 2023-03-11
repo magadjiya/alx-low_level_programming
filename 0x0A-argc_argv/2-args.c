@@ -2,6 +2,10 @@
 #include <stdio.h>
 
 /**
+ * main - print argv arguments
+ * @argc: number of arguments
+ * @argv: array of string argumenta
+ * Return: 0
  */
 int main(int argc, char **argv)
 {

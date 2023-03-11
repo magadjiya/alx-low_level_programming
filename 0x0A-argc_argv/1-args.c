@@ -7,8 +7,13 @@
  * @argv: array of strings
  * Return: 0
  */
-int main(int argc, char **argv __attribute__ ((unused)))
+int main(int argc, char **argv)
 {
-	printf("%d\n", argc);
+	(void)argv;
+
+	if (argc > 1)
+		printf("%d\n", argc - 1);
+	else
+		printf("%d\n", 0);
 	return (0);
 }

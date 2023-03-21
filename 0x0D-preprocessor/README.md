@@ -26,10 +26,10 @@ Write what this project is all about. It can be a brief summary of what you are 
 
 ### Completed tasks
 
-- [ ] task 0
-- [ ] task 1
-- [ ] task 2
-- [ ] task 3
+- [x] task 0
+- [x] task 1
+- [x] task 2
+- [x] task 3
 - [ ] task 4
 
 
@@ -42,37 +42,37 @@ Write what this project is all about. It can be a brief summary of what you are 
   - [Task 3][Task 3]
   - [Task 4][Task 4]
 
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
-[Task 4]: ./
+[Task 0]: ./0-object_like_macro.h
+[Task 1]: ./1-pi.h
+[Task 2]: ./2-main.c
+[Task 3]: ./3-function_like_macro.h
+[Task 4]: ./4-sum.h
 
 
 ## Mandatory tasks
 
 ### Task 0
+A header file that defines a macro SIZE, with a token 1024.
 
-
-**Task file:** [][Task 0]
+**Task file:** [0-object\_like\_macro.h][Task 0]
 
 ### Task 1
+Header file for macro PI, token 3.14159265359.
 
-
-**Task file:** [][Task 1]
+**Task file:** [1-pi.h][Task 1]
 
 ### Task 2
+C function prints the name of the file it was compiled from.
 
-
-**Task file:** [][Task 2]
+**Task file:** [2-main.c][Task 2]
 
 ### Task 3
+Header file for macro ABS(x), where x is an absolute value.
 
-
-**Task file:** [][Task 3]
+**Task file:** [3-function\_like\_macro.h][Task 3]
 
 ### Task 4
-
+Macro SUM(x, y), prints the addition of x and y
 
 **Task file:** [][Task 4]
 

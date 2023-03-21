@@ -15,6 +15,9 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
   - [0x09-static\_libraries][0x09-static_libraries]
   - [0x0A-argc\_argv][0x0A-argc_argv]
   - [0x0B-malloc\_free][0x0B-malloc_free]
+  - [0x0C-more\_malloc\_free][0x0C-more_malloc_free]
+  - [0x0D-preprocessor][0x0D-preprocessor]
+  - [0x0E-structures\_typedef][0x0E-structures_typedef]
 
 [0x00-hello_world]: ./0x00-hello_world
 [0x01-variables_if_else_while]: ./0x01-variables_if_else_while
@@ -28,6 +31,9 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
 [0x09-static_libraries]: ./0x09-static_libraries
 [0x0A-argc_argv]: ./0x0A-argc_argv
 [0x0B-malloc_free]: ./0x0B-malloc_free
+[0x0C-more_malloc_free]: ./0x0C-more_malloc_free
+[0x0D-preprocessor]: ./0x0D-preprocessor
+[0x0E-structures_typedef]: ./0x0E-structures_typedef
 
 ## My process
 

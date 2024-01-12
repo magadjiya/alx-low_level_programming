@@ -5,13 +5,13 @@
  * main - multiply two integer arguments
  * @argc: argument count
  * @argv: argument array
- * Return: 0 if success, -1 if Error
+ * Return: 0 if successful, 1 if Error
  */
 int main(int argc, char *argv[])
 {
 	int i, product = 1;
 
-	if (argc < 2)
+	if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);

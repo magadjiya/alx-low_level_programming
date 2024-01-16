@@ -5,7 +5,7 @@
  * alloc_grid - returns allocated memory for a 2D array
  * @width: of the array
  * @height: of the array
- * Return: ptr to the allocated space
+ * Return: ptr to the allocated 2D space
  */
 int **alloc_grid(int width, int height)
 {
@@ -24,8 +24,15 @@ int **alloc_grid(int width, int height)
 		{
 			/* on each row get space for the whole width */
 			ptr[i] = malloc(sizeof(int) * width);
-			for (j = 0; j < width; j++)
-				ptr[i][j] = 0;
+			if (ptr[i] != NULL)
+			{
+				for (j = 0; j < width; j++)
+					ptr[i][j] = 0;
+			}
+			else
+			{
+				return (NULL);
+			}
 		}
 	}
 	else

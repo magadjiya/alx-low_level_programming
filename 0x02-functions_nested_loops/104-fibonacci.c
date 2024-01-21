@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	unsigned long int x, y, z;
+	long double x, y, z;
 	int i;
 
 	x = 1;
 	y = 2;
 	for (i = 0; i < 99; i++)
 	{
-		printf("%lu", x);
+		printf("%.0Lf", x);
 		z = x + y;
 		x = y;
 		y = z;

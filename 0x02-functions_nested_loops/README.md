@@ -1,7 +1,5 @@
 # 0x02. C - Functions, nested loops
 
-We work on C functions invloving nested loops and conditionals.
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -55,7 +53,7 @@ We work on C functions invloving nested loops and conditionals.
 - [x] task 13
 - [x] task 14
 - [x] task 14
-- [ ] task 16
+- [x] task 16
 
 
 ### Links to task files

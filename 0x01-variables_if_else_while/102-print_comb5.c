@@ -5,33 +5,25 @@
  */
 int main(void)
 {
-	int a, b, c, d;
+	int a, b;
 
-	for (a = 0; a < 10; a++)
+	for (a = 0; a < 100; a++)
 	{
-		for (b = 0; b < 9; b++)
+		for (b = a; b < 100; b++)
 		{
-			for (c = a; c < 10; c++)
+			putchar(a / 10 + '0');
+			putchar(a % 10 + '0');
+			putchar(' ');
+			putchar(b / 10 + '0');
+			putchar(b % 10 + '0');
+			if (a != 99 || b != 99)
 			{
-				d = b + 1;
-				while (d <= 9)
-				{
-					putchar(a + 48);
-					putchar(b + 48);
-					putchar(' ');
-					putchar(c + 48);
-					putchar(d + 48);
-					if (a == 9 && c == 9 && d == 9 && b == 8)
-						putchar('\n');
-					else
-					{
-						putchar(44);
-						putchar(32);
-					}
-					d++;
-				}
+				putchar(44); /* comma */
+				putchar(32); /* space  */
 			}
 		}
 	}
+	putchar('\n');
+
 	return (0);
 }

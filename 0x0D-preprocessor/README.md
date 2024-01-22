@@ -35,11 +35,11 @@ h
   - [Task 4][Task 4]
 
 
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
-[Task 4]: ./
+[Task 0]: ./0-object_like_macro.h
+[Task 1]: ./1-pi.h
+[Task 2]: ./2-main.c
+[Task 3]: ./3-function_like_macro.h
+[Task 4]: ./4-sum.h
 
 ## Mandatory tasks
 

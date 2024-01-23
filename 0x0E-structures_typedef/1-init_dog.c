@@ -1,10 +1,8 @@
 #include "dog.h"
-#include <stdlib.h>
 
 /**
  * init_dog - initialize variable of struct dog
- * struct dog: dog structure
- * @d: pointer to structure elements
+ * @d: dog struct name and pointer
  * @name: name of dog
  * @age: dog age
  * @owner: of dog
@@ -13,7 +11,11 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	(*d).name = name;
-	d->age = age;
-	d->owner = owner;
+	/* only runs if d is True i.e not NULL */
+	if (d)
+	{
+		(*d).name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }

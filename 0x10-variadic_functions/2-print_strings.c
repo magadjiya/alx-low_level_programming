@@ -1,7 +1,4 @@
 #include "variadic_functions.h"
-#include <stdarg.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * print_strings - variadic function that prints strings passed
@@ -23,6 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (str == NULL)
 			str = "(nil)";
 
+		/* Check if string is not the last one */
 		if (i < (int)n - 1)
 		{
 			if (separator == NULL)

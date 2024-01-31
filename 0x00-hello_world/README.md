@@ -137,10 +137,7 @@ Print the sentence, and that piece of art is useful" - Dora Korpar, 2015-10-19 f
 
 ## Acknowledgements
 
-Thanks to Evil Ghost for helping me with this template...(Replace this paragraph with yours)  
 - Twitter - [@Evil\_Ghost\_\_](https://www.twitter.com/evil_ghost__)
-
-**Note: Acknowledge the people who helped you during the project. You can include their names and also link to their social profiles. Remove or edit the Twitter link above. Delete this note after.**
 
 ## Credits
 
@@ -150,10 +147,6 @@ This template is made possible and written by:
 - Medium - [Evil Ghost](https://medium.com/@evilghost)
 - Website - [Coming soon...](#)
 
-**Note: Do not remove this if you used this template**
-
 ## Link to template
 
 - GitHub Repository - [alx-readme-template](https://github.com/Evil-Ghost/alx-readme-template)
-
-**Note: Do not remove this if you used this template**

@@ -1,5 +1,7 @@
 # 0x10. C - Variadic functions
 
+In this project I delve into variadic functions. A variadic function is one that accepts n number of arguments, where n > 1, this means n could be 4, 20, 50 or more, we don't know! Hence we create functions that deal with this sort of scenario.
+
 ## Table of contents
 
  
@@ -7,7 +9,6 @@
   - [Completed tasks](#completed-tasks)
   - [Links to task files](#links-to-task-files)
     - [Links to other files](#links-to-other-files)
-- [Mandatory tasks](#mandatory-tasks)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -23,7 +24,7 @@
 - [x] task 0
 - [x] task 1
 - [x] task 2
-- [ ] task 3
+- [x] task 3
 
 ### Links to task files
 
@@ -37,30 +38,23 @@
   - [Header file][Header file]
 
 
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
+[Task 0]: ./0-sum_them_all.c
+[Task 1]: ./1-print_numbers.c
+[Task 2]: ./2-print_strings.c
+[Task 3]: ./3-print_all.c
 [Header file]: ./variadic_functions.h
-
-## Mandatory tasks
-
-### Task 0
-
-### Task 1
-
-### Task 2
-
-### Task 3
 
 
 ## My process
 
 ### Built with
-
+- C
+- Google
+- My brain ;)
 
 ### What I learned
-
+- How to access a variable number of arguments passed to a function.
+- The meaning and interpretation of the reserved word 'const' in C.
 
 ## Author
 

@@ -19,6 +19,8 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
   - [0x0D-preprocessor][0x0D-preprocessor]
   - [0x0E-structures\_typedef][0x0E-structures_typedef]
   - [0x0F-function\_pointers][0x0F-function_pointers]
+  - [0x10-variadic\_functions][0x10-variadic_functions]
+  - [0x12-singly\_linked\_lists][0x12-singly_linked_lists]
 
 [0x00-hello_world]:./0x00-hello_world
 [0x01-variables_if_else_while]:./0x01-variables_if_else_while
@@ -37,6 +39,7 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
 [0x0E-structures_typedef]:./0x0E-structures_typedef
 [0x0F-function_pointers]:./0x0F-function_pointers
 [0x10-variadic_functions]:./0x10-variadic_functions
+[0x12-singly_linked_lists]:./0x12-singly_linked_lists
 
 ## My process
 

@@ -1,4 +1,5 @@
 # b0x0E. C - Structures, typedef
+We take a look at structures in C, how to declare, define and use them. Ways to access their members, as well as how to abstract from using their syntax with the use of typedef.
 
 ## Table of contents
 
@@ -6,8 +7,6 @@
 - [Overview](#overview)
   - [Completed tasks](#completed-tasks)
   - [Links to task files](#links-to-task-files)
-    - [Links to other files](#links-to-other-files)
-- [Mandatory tasks](#mandatory-tasks)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -38,39 +37,34 @@
   - [Task 5][Task 5]
 
 
-#### Links to other files
-  - [Header file][Header file]
-
-
-[Task 0]: ./
-[Task 1]: ./
-[Task 2]: ./
-[Task 3]: ./
-[Task 4]: ./
-[Task 5]: ./
-
-## Mandatory tasks
-
-### Task 0
-
-### Task 1
-
-### Task 2
-
-### Task 3
-
-### Task 4
-
-### Task 5
-
+[Task 0]: ./dog.h
+[Task 1]: ./1-init_dog.c
+[Task 2]: ./2-print_dog.c
+[Task 3]: ./dog.h
+[Task 4]: ./4-new_dog.c
+[Task 5]: ./5-free_dog.c
 
 ## My process
 
 ### Built with
+- C
+- The Shell
 
+#### Clarification on Task 0 and Task 3
+The solutions are within the same file.
+
+##### Task 0
+Define a new type struct dog with the following elements:
+- name, type = char *
+- age, type = float
+- owner, type = char *
+
+##### Task 3
+Define a new type dog\_t as a new name for the type struct dog
 
 ### What I learned
-
+- Use of structs in C
+- How cool typedef is
 
 ## Author
 
@@ -78,7 +72,7 @@
 - Twitter - [@k\_danhassan](https://twitter.com/k_danhassan)
 
 ## Acknowledgements
-
+- Brian W. Kernighan & Dennis M. Ritchie :)
 
 ## Credits
 

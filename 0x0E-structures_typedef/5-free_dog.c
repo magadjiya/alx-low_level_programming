@@ -8,7 +8,12 @@
 void free_dog(dog_t *d)
 {
 	if (d == NULL)
-		exit(1);
+		return;
+
+	/* Allocated memory for these members */
+	/* so I need to free them too*/
+	free(d->name);
+	free(d->owner);
 
 	free(d);
 }

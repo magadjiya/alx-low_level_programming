@@ -6,50 +6,66 @@
  */
 void print_all(const char * const format, ...)
 {
-	int integer;
-	char character;
-	float floatNum;
-	char *string;
 	const char *str;
 	va_list args;
 
 	va_start(args, format);
-
 	str = format;
-	while (*str != '\0')
+	if (str == NULL)
+		return;
+
+	while (*str)
 	{
 		switch (*str)
 		{
 			case 'c':
 			{
-				character = (int)va_arg(args, int);
-				printf("%c", character);
+				printf("%c", va_arg(args, int));
 				break;
 			}
 			case 'i':
 			{
-				integer = (int)va_arg(args, int);
-				printf("%i", integer);
+				printf("%i", va_arg(args, int));
 				break;
 			}
-			case 'f':
-			{
-				floatNum = (double)va_arg(args, double);
-				printf("%f", floatNum);
-				break;
-			}
-			case 's':
-			{
-				string = (char *)va_arg(args, char *);
-				if (string == NULL)
-					string = "(nil)";
-				printf("%s", string);
-				break;
-			}
+			default:
+			other_types(str, args);
 		}
+		/* Check if valid specifer */
+		/* Check if next char isnt a null char */
+		if ((*str == 'c' || *str == 'f' || *str == 'i' || *str == 's') && *(str + 1))
+			printf(", ");
 		str++;
 	}
 
 	va_end(args);
 	printf("\n");
+}
+
+/**
+ * other_types - handles float and string types
+ * @format: the types received
+ * @argList: the list of variable arguments
+ */
+void other_types(const char * const format, va_list argList)
+{
+	char *string;
+
+	switch (*format)
+	{
+		case 'f':
+		{
+			printf("%f", va_arg(argList, double));
+			break;
+		}
+		case 's':
+		{
+			string = va_arg(argList, char *);
+			if (string == NULL)
+				string = "(nil)";
+			printf("%s", string);
+			break;
+		}
+	}
+	va_end(argList);
 }

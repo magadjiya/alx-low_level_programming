@@ -11,6 +11,8 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 	str = format;
+	if (str == NULL)
+		return;
 
 	while (*str)
 	{
@@ -59,8 +61,11 @@ void other_types(const char * const format, va_list argList)
 		case 's':
 		{
 			string = va_arg(argList, char *);
-			if (string == NULL)
+			while (string == NULL)
+			{
 				string = "(nil)";
+				break;
+			}
 			printf("%s", string);
 			break;
 		}

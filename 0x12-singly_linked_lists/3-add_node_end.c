@@ -8,26 +8,36 @@
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *ptr = *head;
-	list_t *end;
+	list_t *ptr = NULL, *end;
 	unsigned int len = _strlen(str);
 
-	end = malloc(sizeof(list_t));
+	end = malloc(sizeof(list_t) - sizeof(unsigned int));
+	if (end == NULL)
+		return (NULL);
 	end->str = strdup(str);
+	if (end->str == NULL)
+		str = "(nil)";
 	end->len = len;
 	end->next = NULL;
 
+	if (*head == NULL)
+	{
+		*head = end;
+		return (*head);
+	}
+
+	ptr = *head;
 	while (ptr->next != NULL)
 		ptr = ptr->next;
 	ptr->next = end;
 
-	return (end);
+	return (*head);
 }
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - length of a string
  * @s: the string
- * Return: length - '\0'
+ * Return: its length
  */
 int _strlen(const char *s)
 {

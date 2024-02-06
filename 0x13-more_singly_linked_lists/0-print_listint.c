@@ -12,14 +12,10 @@ size_t print_listint(const listint_t *h)
 
 	if (h == NULL)
 		return (1);
-
-	ptr = malloc(sizeof(listint_t));
-	if (ptr == NULL)
-		return (1);
 	ptr = h;
 
 	num = 0;
-	while (ptr != NULL)
+	while (ptr)
 	{
 		printf("%d\n", ptr->n);
 		ptr = ptr->next;

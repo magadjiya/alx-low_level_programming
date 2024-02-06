@@ -12,6 +12,9 @@ void free_list(list_t *head)
 	{
 		ptr = head;
 		head = head->next;
+
+		if (ptr->str != NULL)
+			free(ptr->str);
 		free(ptr);
 	}
 }

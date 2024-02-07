@@ -4,7 +4,7 @@
  * add_nodeint_end - add a node to the end of the list
  * @head: the pointer to the first node
  * @n: the new value for the new node
- * Return: the updated structure
+ * Return: pointer to the new node
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
@@ -18,12 +18,13 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	if (*head == NULL)
 		*head = newNode;
-	else
+	else /* only traverse list if node > 1 */
+	{
 		traverse = *head;
+		while (traverse->next != NULL)
+			traverse = traverse->next;
+		traverse->next = newNode;
+	}
 
-	while (traverse->next != NULL)
-		traverse = traverse->next;
-	traverse->next = newNode;
-
-	return (*head);
+	return (newNode);
 }

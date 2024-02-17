@@ -37,7 +37,7 @@
 - [x] task 0
 - [x] task 1
 - [x] task 2
-- [ ] task 3
+- [x] task 3
 - [x] task 4
 - [ ] task 5
 - [ ] task 6
@@ -191,7 +191,9 @@ Function that encodes a string into 1337.
 
 ### What I learned
 
-I learned...
+I learned
+- How to compare a string
+- The importance of pseudocode before writing your code
 
 
 ## Author
@@ -201,7 +203,6 @@ I learned...
 
 ## Acknowledgements
 
-Thanks to Evil Ghost for helping me with this template...(Replace this paragraph with yours)  
 - Twitter - [@Evil\_Ghost\_\_](https://www.twitter.com/evil_ghost__)
 
 

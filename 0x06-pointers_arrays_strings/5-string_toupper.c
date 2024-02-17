@@ -13,7 +13,7 @@ char *string_toupper(char *s)
 	while (s[i] != '\0')
 	{
 		if (_islower(s[i]))
-			s[i] += 32; /* ASCII difference btw capital & small letters */
+			s[i] -= 32; /* ASCII difference btw capital & small letters */
 		i++;
 	}
 

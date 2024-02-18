@@ -9,16 +9,16 @@
 char *_strchr(char *s, char c)
 {
 	int i, j;
-	int length = _strlen(s);
+	int length = _strlen(s) + 1;
 	int rlength;
 	char *rs;
 
 	i = 0;
-	while (s[i])
+	while (i < length)
 	{
 		if (c == s[i])
 		{
-			rlength = (length - i) + 1; /* length of remaining chars */
+			rlength = length - i; /* length of remaining chars */
 
 			rs = malloc(rlength * sizeof(char));
 			if (rs == NULL)

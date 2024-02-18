@@ -12,6 +12,7 @@ int natural_sqr_root(int i, int n); /* 2nd function */
 int is_prime_number(int n);
 int prime(int n, int i); /* 2nd function */
 int is_palindrome(char *s);
+int recursivePalindrome(char *str, int b, int e); /* 2nd f */
 int wildcmp(char *s1, char *s2);
 
 #endif /* MAIN_H */

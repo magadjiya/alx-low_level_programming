@@ -7,25 +7,24 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int i, j, decimalNo = 0;
-	int power = _strlen(b) - 1;
+	int i, decimalNo = 0;
+	int power;
 
 	if (b == NULL)
-		return (decimalNo);
-	/* Check if all chars are in binary */
-	for (i = 0; i < _strlen(b); i++)
-	{
-		if (!(isBinary(b[i])))
-			return (decimalNo);
-	}
+		return (0);
 
-	j = 0;
-	while (j < _strlen(b))
+	power = _strlen(b) - 1;
+	i = 0;
+	while (b)
 	{
-		/* Turn each char to an int by - '0' */
-		decimalNo += (b[j] - '0') * _pow(2, power);
-		j++;
+		/* Check if all chars are in binary */
+		if (!(isBinary(b[i])))
+			return (0);
+		/* + '0' is shorthand for turning char to int */
+		decimalNo += (b[i] - '0') * _pow(2, power);
+		i++;
 		power--;
+		b++;
 	}
 
 	return (decimalNo);

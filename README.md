@@ -1,6 +1,6 @@
 # ALX LOW LEVEL PROGRAMMING
 
-In this project we get familiar with C. A rather archaic and old-fashioned compiled programming language brought to us by Dennis M. Ritchie at Bell Labs.
+In this project we get familiar with C. A compiled programming language very close to the computer's architecture brought to us by Dennis M. Ritchie at Bell Labs.
 
 ### Links to project folders
   - [0x00-hello\_world][0x00-hello_world]
@@ -21,25 +21,31 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
   - [0x0F-function\_pointers][0x0F-function_pointers]
   - [0x10-variadic\_functions][0x10-variadic_functions]
   - [0x12-singly\_linked\_lists][0x12-singly_linked_lists]
+  - [0x13-more\_singly\_linked\_lists][0x13-more_singly_linked_lists]
+  - [0x14-bit\_manipulation][0x14-bit_manipulation]
+  - [0x15-file\_io][0x15-file_io]
 
-[0x00-hello_world]:./0x00-hello_world
-[0x01-variables_if_else_while]:./0x01-variables_if_else_while
-[0x02-functions_nested_loops]:./0x02-functions_nested_loops
-[0x03-debugging]:./0x03-debugging
-[0x04-more_functions_nested_loops]:./0x04-more_functions_nested_loops
-[0x05-pointers_arrays_strings]:./0x05-pointers_arrays_strings
-[0x06-pointers_arrays_strings]:./0x06-pointers_arrays_strings
-[0x07-pointers_arrays_strings]:./0x07-pointers_arrays_strings
-[0x08-recursion]:./0x08-recursion
-[0x09-static_libraries]:./0x09-static_libraries
-[0x0A-argc_argv]:./0x0A-argc_argv
-[0x0B-malloc_free]:./0x0B-malloc_free
-[0x0C-more_malloc_free]:./0x0C-more_malloc_free
-[0x0D-preprocessor]:./0x0D-preprocessor
-[0x0E-structures_typedef]:./0x0E-structures_typedef
-[0x0F-function_pointers]:./0x0F-function_pointers
-[0x10-variadic_functions]:./0x10-variadic_functions
-[0x12-singly_linked_lists]:./0x12-singly_linked_lists
+[Hello_world]:./0x00-hello_world
+[Variables]:./0x01-variables_if_else_while
+[Functions]:./0x02-functions_nested_loops
+[Debugging]:./0x03-debugging
+[More_functions]:./0x04-more_functions_nested_loops
+[Arrays_0]:./0x05-pointers_arrays_strings
+[Strings_1]:./0x06-pointers_arrays_strings
+[Pointers_2]:./0x07-pointers_arrays_strings
+[Recursion]:./0x08-recursion
+[Static_libraries]:./0x09-static_libraries
+[Argc_argv]:./0x0A-argc_argv
+[Malloc_free]:./0x0B-malloc_free
+[Malloc_free_1]:./0x0C-more_malloc_free
+[Preprocessor]:./0x0D-preprocessor
+[Structures_typedef]:./0x0E-structures_typedef
+[Function_pointers]:./0x0F-function_pointers
+[Variadic_functions]:./0x10-variadic_functions
+[Singly_linked_lists]:./0x12-singly_linked_lists
+[Singly_linked_lists_1]:./0x13-more_singly_linked_lists
+[Bit_manipulation]:./0x14-bit_manipulation
+[File_io]:./0x15-file_io
 
 ## My process
 

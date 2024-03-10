@@ -1,6 +1,6 @@
 # ALX LOW LEVEL PROGRAMMING
 
-In this project we get familiar with C. A rather archaic and old-fashioned compiled programming language brought to us by Dennis M. Ritchie at Bell Labs.
+In this project we get familiar with C. A compiled programming language very close to the computer's architecture brought to us by Dennis M. Ritchie at Bell Labs.
 
 ### Links to project folders
   - [0x00-hello\_world][0x00-hello_world]
@@ -21,6 +21,9 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
   - [0x0F-function\_pointers][0x0F-function_pointers]
   - [0x10-variadic\_functions][0x10-variadic_functions]
   - [0x12-singly\_linked\_lists][0x12-singly_linked_lists]
+  - [0x13-more\_singly\_linked\_lists][0x13-more_singly_linked_lists]
+  - [0x14-bit\_manipulation][0x14-bit_manipulation]
+  - [0x15-file\_io][0x15-file_io]
 
 [0x00-hello_world]:./0x00-hello_world
 [0x01-variables_if_else_while]:./0x01-variables_if_else_while
@@ -40,6 +43,9 @@ In this project we get familiar with C. A rather archaic and old-fashioned compi
 [0x0F-function_pointers]:./0x0F-function_pointers
 [0x10-variadic_functions]:./0x10-variadic_functions
 [0x12-singly_linked_lists]:./0x12-singly_linked_lists
+[0x13-more_singly_linked_lists]:./0x13-more_singly_linked_lists
+[0x14-bit_manipulation]:./0x14-bit_manipulation
+[0x15-file_io]:./0x15-file_io
 
 ## My process
 

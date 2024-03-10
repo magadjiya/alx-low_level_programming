@@ -13,47 +13,29 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (ptr == NULL)
 	{
-		free(ptr);
+		free(name);
+		free(owner);
+		return (NULL);
 	}
-	ptr->name = _strdup(name);
+
+	ptr->name = strdup(name);
+	if (ptr->name == NULL)
+	{
+		free(owner);
+		free(ptr);
+		return (NULL);
+	}
+
 	ptr->age = age;
-	ptr->owner = _strdup(owner);
+
+	ptr->owner = strdup(owner);
+	if (ptr->owner == NULL)
+	{
+		free(owner);
+		free(ptr->name);
+		free(ptr);
+		return (NULL);
+	}
 
 	return (ptr);
-}
-
-/**
- * _strdup - returns a strings null terminated duplicate
- * @s: the string
- * Return: a pointer to the strings duplicate
- */
-char *_strdup(const char *s)
-{
-	int i;
-	int length = _strlen(s);
-	char *str_cpy = malloc((length + 1) * sizeof(char));
-
-	if (str_cpy == NULL)
-		return (NULL);
-
-	for (i = 0; i < length; i++)
-		str_cpy[i] = s[i];
-	str_cpy[length] = '\0';
-
-	return (str_cpy);
-}
-
-/**
- * _strlen - length of string
- * @s: the string
- * Return: length w/o null terminating byte
- */
-int _strlen(const char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-		i++;
-
-	return (i);
 }
